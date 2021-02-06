@@ -1,0 +1,60 @@
+/* резет команды */
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+/* сокращенный сброс настроек кнопок во всех браузерах */
+button, li{
+  all: unset;
+}
+/* шапка */
+header, main, footer{
+  width: 100%;
+  height: 750px;
+
+}
+header{
+  background-image: url("img/gabriel ghnassia A9h6OsAxTyQ unsplash.png");
+  background-size: cover;
+  background-position: center;
+}
+.header{
+  display:flex;
+  justify-content: space-around;
+}
+/* логотип */
+.logo{
+  max-width: 250px;
+  max-height: 150px;
+  background: #E0B973;
+  border-radius: 0 0 2em 2em ;
+  padding: 1.5em 3em;
+}
+span{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.2em;
+  line-height: 48px;
+  letter-spacing: 0.1em;
+  color: #14274A;
+  width: 100%;
+  
+}
+.smal{
+  font-size: 1em;
+  margin-top: 0px;
+}
+/* логотип */
+/* меню */
+nav{
+
+}
+/* меню */
+/* шапка */
