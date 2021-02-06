@@ -9,21 +9,26 @@ html {
   margin: 0;
   padding: 0;
   text-decoration: none;
+  font-family: "Times New Roman";
 }
 /* сокращенный сброс настроек кнопок во всех браузерах */
 button, li{
   all: unset;
 }
 /* шапка */
-header, main, footer{
+header{
   width: 100%;
   height: 750px;
-
 }
 header{
   background-image: url("img/gabriel ghnassia A9h6OsAxTyQ unsplash.png");
   background-size: cover;
   background-position: center;
+}
+.fil{
+  background: rgba(20, 39, 74, 0.5);
+  width: 100%;
+  height: 100%
 }
 .header{
   display:flex;
@@ -32,14 +37,13 @@ header{
 /* логотип */
 .logo{
   min-width: 250px;
-  min-height: 150px;
+  min-height: 120px;
   background: #E0B973;
   border-radius: 0 0 2em 2em ;
   padding: 1.5em 3em;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-
 }
 span{
   font-style: normal;
@@ -66,7 +70,7 @@ nav{
 }
 nav ul li a{
   color: rgb(255, 255, 255);
-  font-family: "Aria";
+  font-family: "Montserrat";
   text-align: center;
   min-width: 1em;
   min-height: 1em;
@@ -81,4 +85,40 @@ nav ul li a:active{
 
 }
 /* менюшка */
+/* текст после меню */
+.text{
+  width: 64%;
+  min-height: 1em;
+  color: #ffffff;
+  margin: 5em 0 0 5em;
+}
+.text span{
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3em;
+  line-height: 61px;
+  color: #ffffff;
+}
+h1{
+  font-size: 8em;
+  line-height: normal;
+}
+p{
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.3em;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+}
+h2{
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3em;
+  line-height: normal;
+  letter-spacing: 0.4em;
+}
+/* текст после меню */
 /* шапка */
