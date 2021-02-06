@@ -121,4 +121,24 @@ h2{
   letter-spacing: 0.4em;
 }
 /* текст после меню */
+/* кнопочка */
+button{
+  min-width: .5em;
+  min-height: .5em;
+  background: #E0B973;
+  border-radius: 10px;
+  padding: 1em 1.2em;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+button img{
+  margin-right: .5em;
+}
+.text + button{
+  margin-top: 3em;
+}
+/* кнопочка */
 /* шапка */
