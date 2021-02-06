@@ -31,11 +31,15 @@ header{
 }
 /* логотип */
 .logo{
-  max-width: 250px;
-  max-height: 150px;
+  min-width: 250px;
+  min-height: 150px;
   background: #E0B973;
   border-radius: 0 0 2em 2em ;
   padding: 1.5em 3em;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+
 }
 span{
   font-style: normal;
@@ -45,11 +49,16 @@ span{
   letter-spacing: 0.1em;
   color: #14274A;
   width: 100%;
-  
+
 }
 .smal{
   font-size: 1em;
-  margin-top: 0px;
+  margin: -.6em -3em 0em 0em;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1em;
+  letter-spacing: 0.6em;
+  color: #14274A;
 }
 /* логотип */
 /* меню */
