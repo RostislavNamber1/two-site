@@ -82,7 +82,7 @@ nav ul li a:hover{
 }
 /* действие при фокусировании клике*/
 nav ul li a:active{
-
+  color: #bababa;
 }
 /* менюшка */
 /* текст после меню */
@@ -141,4 +141,63 @@ button img{
   margin-top: 3em;
 }
 /* кнопочка */
+/* скролл */
+.Scroll{
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+}
+.Scroll span{
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.Scroll img{
+  max-width: 40px;
+  max-height: 40px;
+}
+/* анимация на иконку скрола */
+.fadeOutDown {
+ -webkit-animation-name: fadeOutDown;
+ animation-name: fadeOutDown;
+ -webkit-animation-duration: 3s;
+ animation-duration: 3s;
+ -webkit-animation-fill-mode: both;
+ animation-fill-mode: both;
+ animation-iteration-count: infinite;
+ }
+ @-webkit-keyframes fadeOutDown {
+ 0% {
+ opacity: 1;
+ }
+ 100% {
+ opacity: 0;
+ -webkit-transform: translate3d(0, 100%, 0);
+ transform: translate3d(0, 100%, 0);
+ }
+ }
+ @keyframes fadeOutDown {
+ 0% {
+ opacity: 1;
+ }
+ 100% {
+ opacity: 0;
+ -webkit-transform: translate3d(0, 100%, 0);
+ transform: translate3d(0, 100%, 0);
+ }
+ }
+ /* анимация на иконку скрола */
+
+/* скролл */
 /* шапка */
