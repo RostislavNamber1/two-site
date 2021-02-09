@@ -2,7 +2,7 @@
 <html lang="ru" dir="ltr">
   <head>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <!-- кодировка страницы сайта -->
     <meta charset="utf-8">
     <!-- для адаптива страниц -->
@@ -17,6 +17,8 @@
     <meta name="robots" content="index, follow">
     <!-- подключение стилей -->
     <link rel="stylesheet" href="css.css">
+    <!-- модключаем медеа запросы -->
+    <link rel="stylesheet" href="media.css">
     <!-- подключение js после загрузки страницы-->
     <script defer src="js.js"></script>
     <!-- Скрипт будет выполнен асинхронно с HTML страницей -->
@@ -33,9 +35,12 @@
         <!-- меню -->
         <div class="header">
           <!-- логотип -->
+
+
+
             <div class="logo">
-              <span>LUXURY</span>
-              <span class="smal">HOTELS</span>
+              <h2>LUXURY <br>
+              <small>HOTELS</small></h2>
             </div>
             <!-- логотип -->
             <!-- менюшка -->
@@ -49,12 +54,12 @@
             </nav>
             <!-- менюшка -->
         </div>
+        
         <!-- меню -->
         <!-- текст после меню -->
         <div class="text">
-          <span>WELCOME TO</span>
-          <h1>LUXURY</h1>
-            <h2>HOTELS</h2>
+          <h1><small>WELCOME TO</small><wbr>LUXURY<br></h1>
+            <span>HOTELS</span>
           <p>Book your stay and enjoy Luxury <br>
               redefined at the most affordable rates.</p>
         </div>
