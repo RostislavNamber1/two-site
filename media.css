@@ -2,4 +2,11 @@
 button{
   width: 15vw;
 }
+.text h1{
+  font-size: 12vw;
+  line-height: 60%;
+}
+.text h1 span{
+  margin-top: 2em;
+}
 }
