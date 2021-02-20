@@ -99,20 +99,20 @@ nav ul li a:active{
   width: 64%;
   height: 50vh;
   color: #ffffff;
-  margin: 0 0 0 5em;
+  margin: 0 0 0 10em;
 }
 .text h1{
-  font-size: 9vw;
+  font-size: 9rem;
   line-height: 60%;
 }
 .text h1 small, .text span{
-  font-size: 4vw;
+  font-size: 3rem;
 }
 .text p{
   font-family: "Montserrat";
   font-style: normal;
   font-weight: normal;
-  font-size: 1.3vw;
+  font-size: 0.8rem;
   line-height: 30px;
   letter-spacing: 0.1em;
 }
@@ -151,7 +151,7 @@ button + span{
   font-family: "Montserrat";
   font-style: normal;
   font-weight: bold;
-  font-size: 1vw;
+  font-size: 1rem;
   letter-spacing: 0.05em;
   display: flex;
   flex-flow: column nowrap;
@@ -197,8 +197,6 @@ button + span{
  /* анимация на иконку скрола */
 /* скролл */
 /* шапка */
-
-
 /* основная часть сайта */
 main{
   width: 100vw;
@@ -254,6 +252,7 @@ section{
 }
 .text_opisanie button{
   width: 10vw;
+  font-size: .8rem;
 }
 picture{
   width: 50%;
@@ -276,20 +275,10 @@ picture img{
   text-align: center;
 }
 .text2 h3{
+  text-align: center;
+  width: 100%;
   font-size: 4rem;
   color: #14274A;
-}
-.contriller{
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  width: 7vw;
-}
-.contriller button{
-  width: 2vw;
-  height: 5vh;
-  padding: 0;
-  margin: 0 1vw;
 }
 /* основная часть сайта */
 
@@ -301,17 +290,15 @@ footer{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-flow: row wrap;
 }
-.mediaa{
 
-
-}
 /* блок с адресом */
 .adres, .adres a, .adres a span{
   color: #ffffff;
 }
 address{
-  margin-top: 5%;
+  margin: 5% 0;
 }
 .adres a{
   font-size: .7rem;

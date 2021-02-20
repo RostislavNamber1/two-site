@@ -16,6 +16,7 @@ button{
   }
   .text{
     height: 62vh;
+    margin: 0 0 0 5em;
   }
   .Scroll span{
     font-size: 2vw;
@@ -35,7 +36,56 @@ button{
   .contriller button{
     height: 3vh;
   }
-  footer{
-    display: block;
+  .text_opisanie button{
+    width: 12vw;
+    height: 3vh;
+    font-size: 1rem;
   }
+}
+@media screen and (max-width: 425px){
+  .text{
+    margin: 0 0 0 2em;
+  }
+  .text h1{
+    font-size: 4rem;
+  }
+  .text span, .text h1 small{
+    font-size: 1.5rem;
+  }
+  .header{
+    height: 21vh;
+  }
+  .logo{
+    border-radius: 0 0 1em 1em;
+    height: 9vh;
+  }
+  header nav{
+    margin-top: 1em;
+  }
+  nav ul li a{
+    font-size: 0.5rem;
+  }
+  .logo h2 small{
+    font-size: 0.4rem;
+
+  }
+  .logo h2{
+    line-height: 60%;
+  }
+  .Scroll button{
+    font-size: 0.8rem;
+    width: 30%;
+  }
+  .Scroll img{
+    width: 1.5em;
+  }
+  .text_opisanie button{
+    width: 22vw;
+  }
+  .text2 h3{
+    font-size: 2rem;
+  }
+  footer nav{
+  display: none;
+}
 }
