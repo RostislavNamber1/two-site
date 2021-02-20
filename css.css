@@ -73,7 +73,7 @@ header{
 }
 /* логотип */
 /* менюшка */
-nav{
+header nav{
   margin-top: 3em;
 }
 nav ul li a{
@@ -295,4 +295,67 @@ footer{
   background: #14274A;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+}
+/* блок с адресом */
+.adres, .adres a, .adres a span{
+  color: #ffffff;
+}
+address{
+  margin-top: 5%;
+}
+.adres a{
+  font-size: .7rem;
+}
+.adres a span{
+  font-size: 1rem;
+}
+footer nav ul li{
+  display: block;
+  margin: 7% 0;
+}
+footer nav ul li a{
+  font-size: .8rem;
+}
+/* блок с адресом */
+/* второй блок созыальные кнопки */
+.Facebook{
+  display: flex;
+  flex-flow: column wrap;
+}
+.social div a p{
+  font-size: 1rem;
+  color: #ffffff;
+  margin: .5em 0;
+
+}
+.Facebook a img{
+  height: 2vh;
+  margin: .5em .4em 0 0;
+}
+.social{
+  display: flex;
+}
+/* второй блок созыальные кнопки */
+.formachka p{
+  color: #ffffff;
+}
+form{
+  display: flex;
+  margin-top: 1em;
+}
+input[type=text]{
+  height: 2.5em;
+  background: none;
+  border: 2px solid #E0B973;
+  color: #ffffff;
+}
+input[type=submit]{
+  background: #E0B973;
+  border: none;
+  width: 3em;
+  color: #000000;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
 }
