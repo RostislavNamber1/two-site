@@ -10,3 +10,32 @@ button{
   margin-top: 2em;
 }
 }
+@media screen and (max-width: 768px){
+  .text h1 {
+    font-size: 6rem;
+  }
+  .text{
+    height: 62vh;
+  }
+  .Scroll span{
+    font-size: 2vw;
+  }
+  button{
+    width: 12vw;
+  }
+  section{
+    display: block;
+  }
+  .text_opisanie, picture, .text_opisanie p{
+    width: 100%;
+  }
+  .text_opisanie{
+    margin: 1em 0;
+  }
+  .contriller button{
+    height: 3vh;
+  }
+  footer{
+    display: block;
+  }
+}
